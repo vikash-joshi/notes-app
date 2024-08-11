@@ -1,0 +1,30 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .scrollable-table {
+    width: max-content;
+    border-collapse: collapse;
+  }
+  
+  .scrollable-table th,
+  .scrollable-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    white-space: nowrap;
+  }
+  
+  .scrollable-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .scrollable-table td {
+    background-color: #fff;
+  }
+  
+  .scrollable-table th,
+  .scrollable-table td {
+    min-width: 150px; /* Fixed column width */
+  }
